@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Iteration 1 - Connect to MongoDB
 // DATABASE CONNECTION
-
+const mongoose = require('mongoose');
 
 
 // ROUTES
@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
 
 
 // Start the server
-app.listen(3000, () => console.log('My first app listening on port 3000!'));
+app.listen(3002, () => console.log('My first app listening on port 3002!'));
 
 
 
